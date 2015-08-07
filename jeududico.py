@@ -162,7 +162,7 @@ l'annonce du résultat final)
                   )
             else:
                 print("[b]Définition %s[/b] : [b][#001CE2]%s (%s)[/#001CE2][/b] : %s"
-                      % (p["num_prop"], p["joueur"], p["type_def"], p["definition"])
+                      % (p["num_prop"], p["joueur"], p["type_def"], p["definition"].replace('\\n','\n'))
                   )
 
 
