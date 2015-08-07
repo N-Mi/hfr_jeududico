@@ -158,7 +158,7 @@ l'annonce du résultat final)
 
             if anonyme:
                 print("[b]Définition %s[/b] %s"
-                      % (p["num_prop"], p["definition"])
+                      % (p["num_prop"], p["definition"].replace('\\n','\n'))
                   )
             else:
                 print("[b]Définition %s[/b] : [b][#001CE2]%s (%s)[/#001CE2][/b] : %s"
